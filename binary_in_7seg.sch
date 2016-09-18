@@ -1,0 +1,173 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:cd4543
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 7SEGM S?
+U 1 1 57DA1C00
+P 9050 3200
+F 0 "S?" H 9050 3850 50  0000 C CNN
+F 1 "7SEGM" H 9050 2550 50  0000 C CNN
+F 2 "" H 9050 3200 50  0000 C CNN
+F 3 "" H 9050 3200 50  0000 C CNN
+	1    9050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CD4543 U?
+U 1 1 57DEBCF8
+P 6650 3100
+F 0 "U?" H 6800 3700 60  0000 C CNN
+F 1 "CD4543" H 6450 3700 60  0000 C CNN
+F 2 "" H 6650 3100 60  0000 C CNN
+F 3 "" H 6650 3100 60  0000 C CNN
+	1    6650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57DEBD77
+P 7500 2900
+F 0 "R?" V 7580 2900 50  0000 C CNN
+F 1 "R" V 7500 2900 50  0000 C CNN
+F 2 "" V 7430 2900 50  0000 C CNN
+F 3 "" H 7500 2900 50  0000 C CNN
+	1    7500 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57DEBDAF
+P 7800 3000
+F 0 "R?" V 7880 3000 50  0000 C CNN
+F 1 "R" V 7800 3000 50  0000 C CNN
+F 2 "" V 7730 3000 50  0000 C CNN
+F 3 "" H 7800 3000 50  0000 C CNN
+	1    7800 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57DEBDD4
+P 7500 3100
+F 0 "R?" V 7580 3100 50  0000 C CNN
+F 1 "R" V 7500 3100 50  0000 C CNN
+F 2 "" V 7430 3100 50  0000 C CNN
+F 3 "" H 7500 3100 50  0000 C CNN
+	1    7500 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57DEBDFA
+P 7800 3200
+F 0 "R?" V 7880 3200 50  0000 C CNN
+F 1 "R" V 7800 3200 50  0000 C CNN
+F 2 "" V 7730 3200 50  0000 C CNN
+F 3 "" H 7800 3200 50  0000 C CNN
+	1    7800 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57DEBE38
+P 7500 3300
+F 0 "R?" V 7580 3300 50  0000 C CNN
+F 1 "R" V 7500 3300 50  0000 C CNN
+F 2 "" V 7430 3300 50  0000 C CNN
+F 3 "" H 7500 3300 50  0000 C CNN
+	1    7500 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57DEBE84
+P 7800 3400
+F 0 "R?" V 7880 3400 50  0000 C CNN
+F 1 "R" V 7800 3400 50  0000 C CNN
+F 2 "" V 7730 3400 50  0000 C CNN
+F 3 "" H 7800 3400 50  0000 C CNN
+	1    7800 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57DEBEB6
+P 7500 3500
+F 0 "R?" V 7580 3500 50  0000 C CNN
+F 1 "R" V 7500 3500 50  0000 C CNN
+F 2 "" V 7430 3500 50  0000 C CNN
+F 3 "" H 7500 3500 50  0000 C CNN
+	1    7500 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 2900 7350 2900
+Wire Wire Line
+	7250 3000 7650 3000
+Wire Wire Line
+	7250 3100 7350 3100
+Wire Wire Line
+	7250 3200 7650 3200
+Wire Wire Line
+	7250 3300 7350 3300
+Wire Wire Line
+	7250 3400 7650 3400
+Wire Wire Line
+	7250 3500 7350 3500
+Wire Wire Line
+	7650 3500 8300 3500
+Wire Wire Line
+	7950 3400 8300 3400
+Wire Wire Line
+	7650 3300 8300 3300
+Wire Wire Line
+	7950 3200 8300 3200
+Wire Wire Line
+	7650 3100 8300 3100
+Wire Wire Line
+	7950 3000 8300 3000
+Wire Wire Line
+	7650 2900 8300 2900
+$EndSCHEMATC
